@@ -9,6 +9,15 @@ This little Go code will help you to generate flash secret storage on https://qu
 after 24 hours your secret will be erased.
 
 ## How to use it?
+Quick try:
+```
+git clone git@github.com:peti2001/flashSecretSlackBot.git
+cd flashSecretSlackBot
+docker-compose up
+```
+OR
+
+If you want to build yourself:
 ```
 git clone git@github.com:peti2001/flashSecretSlackBot.git
 cd flashSecretSlackBot
