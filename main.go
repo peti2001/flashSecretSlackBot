@@ -41,7 +41,7 @@ func main() {
 	var fs flashSecret
 
 	path := flag.String("path", "/", "The URL where the service will be availabble")
-	port := flag.Int("port", 8080, "The port where the service will bbe available")
+	port := flag.Int("port", 8080, "The port where the service will be available")
 	slackToken := flag.String("slack-token", "", "A secret token from Slack. Leave it empty to skip the check.")
 	flag.Parse()
 	fs = adapter.QuickForgetFactory()
